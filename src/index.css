@@ -1,10 +1,24 @@
+
 @import "tailwindcss";
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: clip;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
 }

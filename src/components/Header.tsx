@@ -38,9 +38,11 @@ export default function Header() {
                 {icons.person}
             </div>
 
-            <div className="shrink-0 w-30 h-10 flex justifiy-center items-center [&>svg]:w-12 [&>svg]:h-12 text-3xl">
-                {icons.cart}
-                Cart
+            <div className="shrink-0 w-30 h-10 flex items-center justify-center text-3xl">
+                <button className="flex items-center gap-2 [&>svg]:w-12 [&>svg]:h-12">
+                    {icons.cart}
+                    Cart
+                </button>
             </div>
 
         </header>
